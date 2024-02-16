@@ -92,7 +92,7 @@ footer {
 }
 
 .florencio-paper-fire-container:hover .florencio-paper-fire-image {
-  filter: brightness(1);
+  filter: brightness(0.5);
 }
 .header {
   display: flex;
