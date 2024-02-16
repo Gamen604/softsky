@@ -88,7 +88,7 @@ footer {
 
 .florencio-paper-fire-image {
   width: 100%;
-  transition: filter 0.7s ease-in-out;
+  transition: filter 0.3s ease-in-out;
 }
 
 .florencio-paper-fire-container:hover .florencio-paper-fire-image {
