@@ -1,3 +1,5 @@
+const infoElement = document.getElementById("info");
+infoElement.style.fontFamily = "Kaph, cursive";
 const socialMediaBtn = document.getElementById("socialMediaBtn");
 const socialMediaPanel = document.createElement("div");
 socialMediaPanel.id = "socialMediaPanel";
