@@ -81,6 +81,19 @@ footer {
   max-width: 400px;
   box-sizing: border-box;
 }
+.florencio-paper-fire-container {
+  display: inline-block;
+  position: relative;
+}
+
+.florencio-paper-fire-image {
+  width: 100%;
+  transition: filter 0.3s ease-in-out;
+}
+
+.florencio-paper-fire-container:hover .florencio-paper-fire-image {
+  filter: brightness(0);
+}
 .header {
   display: flex;
   justify-content: center;
@@ -112,7 +125,6 @@ footer {
   font-size: 1.5rem;
   line-height: 1.5;
 }
-
 .game-image {
   width: 100%;
   border-radius: 10px;
