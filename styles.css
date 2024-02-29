@@ -83,12 +83,15 @@ footer {
 }
 
 .florencio-paper-fire-image {
-  width: 100%;
+  border-radius: 10px;
   transition: filter 0.3s ease-in-out;
+}
+.angelumbrella-image{
+  heigh>50%
 }
 
 .florencio-paper-fire-container:hover .florencio-paper-fire-image {
-  filter: brightness(0);
+  filter: brightness(0.5);
 }
 .header {
   display: flex;
@@ -120,9 +123,4 @@ footer {
   color: white;
   font-size: 1.5rem;
   line-height: 1.5;
-}
-.game-image {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 1rem;
 }
